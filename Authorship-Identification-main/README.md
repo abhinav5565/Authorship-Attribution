@@ -1,4 +1,3 @@
-![alt text][logo]
 
 ### Abstract
 

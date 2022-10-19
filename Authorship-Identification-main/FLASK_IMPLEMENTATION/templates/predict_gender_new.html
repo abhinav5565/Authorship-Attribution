@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="static/css/table.css">
+
+  <title></title>
+</head>
+<body><br><br>
+  <h1> <span class="yellow">PREDI</span><span class="blue"></span>CTION<span class="blue"></span></h1><br><hr>
+<table class="container">
+    <thead>
+      <tr>
+        <th><h1>CONTENTS</h1></th>
+        <th><h1>FREQUENCY</h1></th>
+    
+
+        
+      </tr>
+    </thead><br>
+    <tbody>
+          <tr>
+                  <td>The Gender of the author of the entered text is</td>
+                  <td>{{prediction}}</td>
+              </tr>
+              
+              <tr>
+                  <td>Total No. of Words Present in the Tweets</td>
+                  <td>{{Total_Words_}}</td>
+              </tr>
+              <tr>
+                  <td>Words matching with male pattern</td>
+                  <td>{{M_list_}}</td>
+              </tr>
+              <tr>
+                  <td>No. of words matching with male pattern</td>
+                  <td>{{len_M_}}</td>
+              </tr>
+              <tr>
+                  <td>Words matching with female pattern</td>
+                  <td>{{F_list_}}</td>
+              </tr>
+              <tr>
+                  <td>No. of words matching with female pattern</td>
+                  <td>{{len_F_}}</td>
+              </tr>
+    
+    </tbody>
+  </table><br><br>
+
+																	
+														<div class="imageBox" align=center>
+														
+															<img src="{{ url_for('static', filename='count.png') }}" class="img-responsive">
+														<h3>Distribution Pie</h3>
+									
+														</div>
+														
+												
+</body>
+</html>

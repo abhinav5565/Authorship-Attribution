@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+ 
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="static/css/home.css">
+<html>
+</head>
+<body>
+<div class="wrapper">
+  <div class="container">
+    <h1>Predict Gender</h1>
+    <div class="upload-container">
+      <div class="border-container">
+        <p>Please upload a valid file!</p><br>
+        <i class="fas fa-file-upload"></i>
+        <!--<input type="file" id="file-upload">-->
+        
+        <form method=post enctype=multipart/form-data>
+          <input type=file name=file multiple="true" class="btn btn-info"><br><br>
+          <input type=submit value=Upload class="btn btn-success btn-lg">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>  

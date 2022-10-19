@@ -1,0 +1,10 @@
+The gender of the author is Female 
+ *********************** 
+Total no. of words: 100
+ ******************** 
+Words matching with male pattern: match,vs,win,
+
+ ******************** 
+Words matching with female pattern: movie,help,house,happy,happy,best,best,happy,love,love,love,love,love,love,
+
+ ******************** 
